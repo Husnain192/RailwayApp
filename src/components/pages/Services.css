@@ -1,0 +1,68 @@
+:root {
+    --light: #d0d1d3;
+    --dark: #040d14;
+    --green: #21ce99;
+}
+
+.services{
+    font-size: 7vh;
+}
+
+.trainClass :hover{
+    cursor: pointer;
+    background-color: var(--green);
+    color: var(--dark);
+}
+
+/* .result > input{
+    display: none;
+} */
+
+#myBTN{
+    display: inline-flex;
+}
+
+#myClass0{
+    margin-top: 100px;
+    font-size: 3vh;
+}
+
+#myClass{
+    margin-left: 500px;
+}
+
+#myClass{
+    font-size: 3vh;
+}
+
+#tick1, #tick2{
+    display: inline-flex;
+    color: var(--green);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#tick1 > input{
+    width: 30vh;
+    height: 5vh;
+}
+
+#tick2 > input{
+    width: 30vh;
+    height: 5vh;
+}
+
+#tick3{
+    color: var(--green);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#tick3 > input{
+    width: 70vh;
+    height: 5vh;
+}
+
+#tick4{
+    margin-left: 280px;
+}
